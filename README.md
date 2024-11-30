@@ -47,20 +47,3 @@ src
 │       └── data.sql (opcional)
 └── test
 
-
-# 🛠️ Configuração do Ambiente
-Pré-requisitos
-Java 23+
-MySQL 8+
-Maven 3.6+
-Insomnia ou Postman para testar a API
-Configuração do Banco de Dados
-Edite o arquivo application.properties com as credenciais do seu banco MySQL:
-
-properties
-Copiar código
-spring.datasource.url=jdbc:mysql://localhost:3306/forumhub
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
